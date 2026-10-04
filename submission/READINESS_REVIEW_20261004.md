@@ -6,7 +6,7 @@
 
 Tám notebook trong `notebooks/` đã nhận code/output tuần tự thật và giữ giải thích/câu trả lời với nhãn lịch sử. Bản trước đồng bộ giữ nguyên tại `history_presync_20261004/`; bản Jupyter gốc tại `validation_20261004/notebooks/`. 14 PNG cùng log/HTML cũ được giữ như bằng chứng các lần đo trước. [Kiểm tra bảo toàn](validation_20261004/preservation_verified.json) xác nhận 2.838 file có hash không đổi trong lượt validation. Không còn kiểm tra kỹ thuật thiếu.
 
-Bước bàn giao: commit/push, xác minh trên GitHub, mở PR upstream và gửi repo URL + PR URL + commit SHA qua kênh lớp. Trạng thái bàn giao thực tế được báo cùng liên kết sau khi thực hiện.
+Đã commit/push lên [fork cá nhân](https://github.com/DngVinh/K4-Track02-Day18-DuongXuanVinh-2A202602622-Lakehouse-Lab) và mở [PR #8](https://github.com/VinUni-AI20k/K4-Track02-Day18-Lakehouse-Lab/pull/8) về `VinUni-AI20k:main` (OPEN, không draft). Đã đối chiếu hash file trên GitHub với commit cục bộ: đủ 8 notebook chính và 14 PNG. SHA bản nộp cuối là head commit của PR, được cung cấp khi bàn giao. **Chưa gửi kênh lớp:** đang chờ nền tảng/tên kênh hoặc đường dẫn cụ thể từ người học.
 
 ## Đối chiếu yêu cầu cuối
 
@@ -21,6 +21,8 @@ Bước bàn giao: commit/push, xác minh trên GitHub, mở PR upstream và g�
 | INFO, reflection, khai AI | Có; reflection dưới 200 từ |
 | Screenshots | 14 PNG phủ 8 NB; số đo thuộc các lần chạy trước, không phải ảnh Jupyter |
 | NB6 source | Đã sửa đường dẫn tương đối VACUUM và URL-encoded URI Windows |
-| Commit/push/PR/kênh lớp | Hoàn tất theo bước bàn giao; đối chiếu liên kết và SHA được báo sau thực hiện |
+| Commit/push và kiểm tra GitHub | Đã hoàn tất; hash file GitHub khớp commit cục bộ |
+| PR upstream | PR #8 OPEN, không draft |
+| Gửi kênh lớp | Chưa gửi; chờ nền tảng/tên kênh hoặc đường dẫn cụ thể |
 
 Rubric nội dung và số đo lần trước giữ trong [review lịch sử](history_presync_20261004/READINESS_REVIEW_20261004.md). Part C đã có log pytest/runner đầy đủ; không suy diễn điểm chính thức từ PASS. Bonus tùy chọn, chưa thực hiện.

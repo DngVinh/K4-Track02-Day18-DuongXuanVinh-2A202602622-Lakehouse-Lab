@@ -1,5 +1,7 @@
 # Nội dung PR
 
+Đã mở [PR #8](https://github.com/VinUni-AI20k/K4-Track02-Day18-Lakehouse-Lab/pull/8), trạng thái OPEN, không draft. Commit đã push và hash file đã đối chiếu trên GitHub. Gửi kênh lớp đang chờ đích nhận cụ thể.
+
 Tiêu đề: `[K4-Track02-Day18] DuongXuanVinh - 2A202602622 - Lakehouse Lab`
 
 Họ tên: Dương Xuân Vinh. MSSV: 2A202602622. Đường chạy: lightweight, Python 3.14.7 trên Windows 11.
